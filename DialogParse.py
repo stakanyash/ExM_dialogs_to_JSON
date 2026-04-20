@@ -11,6 +11,7 @@ import logging
 import easygui
 from collections import defaultdict
 from lxml import etree as ET
+import sys
 
 # Logging setup
 
@@ -347,7 +348,7 @@ def ask_retry():
 
 def wait_and_exit():
     input("\nНажмите Enter для выхода...")
-    exit(1)
+    sys.exit(1)
 
 # Saving output file
 
