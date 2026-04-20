@@ -1,0 +1,1 @@
+python -m nuitka --onefile DialogParse.py --windows-icon-from-ico=".\icon.ico" --windows-company-name="stakan" --windows-product-name="HTA Dialogs parser to JSON" --windows-file-version=2.0 --windows-file-description="Extracts all lines from strings.xml or dialogsglobal.xml to json file" --windows-console-mode=force --enable-plugin=tk-inter
